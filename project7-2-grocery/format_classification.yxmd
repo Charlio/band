@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="162" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_Store" selected="True" />
+                <SelectField field="Left_Address" selected="True" />
+                <SelectField field="Left_City" selected="True" />
+                <SelectField field="Left_State" selected="True" />
+                <SelectField field="Left_Zip" selected="True" />
+                <SelectField field="Left_Type" selected="True" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" />
+                <SelectField field="Right_Age0to9" selected="True" />
+                <SelectField field="Right_Age10to17" selected="True" />
+                <SelectField field="Right_Age18to24" selected="True" />
+                <SelectField field="Right_Age25to29" selected="True" />
+                <SelectField field="Right_Age30to39" selected="True" />
+                <SelectField field="Right_Age40to49" selected="True" />
+                <SelectField field="Right_Age50to64" selected="True" />
+                <SelectField field="Right_Age65Plus" selected="True" />
+                <SelectField field="Right_EdLTHS" selected="True" />
+                <SelectField field="Right_EdHSGrad" selected="True" />
+                <SelectField field="Right_EdSomeCol" selected="True" />
+                <SelectField field="Right_EdAssociate" selected="True" />
+                <SelectField field="Right_EdBachelor" selected="True" />
+                <SelectField field="Right_EdMaster" selected="True" />
+                <SelectField field="Right_EdProfSchl" selected="True" />
+                <SelectField field="Right_EdDoctorate" selected="True" />
+                <SelectField field="Right_HHSz1Per" selected="True" />
+                <SelectField field="Right_HHSz2Per" selected="True" />
+                <SelectField field="Right_HHSz3Per" selected="True" />
+                <SelectField field="Right_HHSz4Per" selected="True" />
+                <SelectField field="Right_HHSz5PlusPer" selected="True" />
+                <SelectField field="Right_HHIncU25K" selected="True" />
+                <SelectField field="Right_HHInc25Kto50K" selected="True" />
+                <SelectField field="Right_HHInc50Kto75K" selected="True" />
+                <SelectField field="Right_HHInc75Kto100K" selected="True" />
+                <SelectField field="Right_HHInc100Kto150K" selected="True" />
+                <SelectField field="Right_HHInc150Kto250K" selected="True" />
+                <SelectField field="Right_HHInc250KPlus" selected="True" />
+                <SelectField field="Right_PopAsian" selected="True" />
+                <SelectField field="Right_PopBlack" selected="True" />
+                <SelectField field="Right_PopHispanic" selected="True" />
+                <SelectField field="Right_PopMulti" selected="True" />
+                <SelectField field="Right_PopNativeAmer" selected="True" />
+                <SelectField field="Right_PopOther" selected="True" />
+                <SelectField field="Right_PopPacIsl" selected="True" />
+                <SelectField field="Right_PopWhite" selected="True" />
+                <SelectField field="Right_HVal0to100K" selected="True" />
+                <SelectField field="Right_HVal100Kto200K" selected="True" />
+                <SelectField field="Right_HVal200Kto300K" selected="True" />
+                <SelectField field="Right_HVal300Kto400K" selected="True" />
+                <SelectField field="Right_HVal400Kto500K" selected="True" />
+                <SelectField field="Right_HVal500Kto750K" selected="True" />
+                <SelectField field="Right_HVal750KPlus" selected="True" />
+                <SelectField field="Right_PopDens" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storeinformation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store_clusters.xlsx
+Table=`store_clusters$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="V_String" />
+            <Field name="total_sale" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Dry_Grocery" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Dairy" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Frozen_Food" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Meat" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Produce" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Floral" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Deli" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_Bakery" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Per_General_Merchandise" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Cluster" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_Address" selected="False" />
+                <SelectField field="Left_City" selected="False" />
+                <SelectField field="Left_State" selected="False" />
+                <SelectField field="Left_Zip" selected="False" />
+                <SelectField field="Left_Type" selected="False" />
+                <SelectField field="Left_total_sale" selected="False" />
+                <SelectField field="Left_Per_Dry_Grocery" selected="False" />
+                <SelectField field="Left_Per_Dairy" selected="False" />
+                <SelectField field="Left_Per_Frozen_Food" selected="False" />
+                <SelectField field="Left_Per_Meat" selected="False" />
+                <SelectField field="Left_Per_Produce" selected="False" />
+                <SelectField field="Left_Per_Floral" selected="False" />
+                <SelectField field="Left_Per_Deli" selected="False" />
+                <SelectField field="Left_Per_Bakery" selected="False" />
+                <SelectField field="Left_Per_General_Merchandise" selected="False" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" />
+                <SelectField field="Right_Address" selected="True" rename="Right_Address" />
+                <SelectField field="Right_City" selected="True" rename="Right_City" />
+                <SelectField field="Right_State" selected="True" rename="Right_State" />
+                <SelectField field="Right_Zip" selected="True" rename="Right_Zip" />
+                <SelectField field="Right_Type" selected="True" rename="Right_Type" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="366" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Store" selected="True" />
+            <Field field="Right_Address" selected="True" />
+            <Field field="Right_City" selected="True" />
+            <Field field="Right_State" selected="True" />
+            <Field field="Right_Zip" selected="True" />
+            <Field field="Right_Type" selected="True" />
+            <Field field="Age0to9" selected="True" />
+            <Field field="Age10to17" selected="True" />
+            <Field field="Age18to24" selected="True" />
+            <Field field="Age25to29" selected="True" />
+            <Field field="Age30to39" selected="True" />
+            <Field field="Age40to49" selected="True" />
+            <Field field="Age50to64" selected="True" />
+            <Field field="Age65Plus" selected="True" />
+            <Field field="EdLTHS" selected="True" />
+            <Field field="EdHSGrad" selected="True" />
+            <Field field="EdSomeCol" selected="True" />
+            <Field field="EdAssociate" selected="True" />
+            <Field field="EdBachelor" selected="True" />
+            <Field field="EdMaster" selected="True" />
+            <Field field="EdProfSchl" selected="True" />
+            <Field field="EdDoctorate" selected="True" />
+            <Field field="HHSz1Per" selected="True" />
+            <Field field="HHSz2Per" selected="True" />
+            <Field field="HHSz3Per" selected="True" />
+            <Field field="HHSz4Per" selected="True" />
+            <Field field="HHSz5PlusPer" selected="True" />
+            <Field field="HHIncU25K" selected="True" />
+            <Field field="HHInc25Kto50K" selected="True" />
+            <Field field="HHInc50Kto75K" selected="True" />
+            <Field field="HHInc75Kto100K" selected="True" />
+            <Field field="HHInc100Kto150K" selected="True" />
+            <Field field="HHInc150Kto250K" selected="True" />
+            <Field field="HHInc250KPlus" selected="True" />
+            <Field field="PopAsian" selected="True" />
+            <Field field="PopBlack" selected="True" />
+            <Field field="PopHispanic" selected="True" />
+            <Field field="PopMulti" selected="True" />
+            <Field field="PopNativeAmer" selected="True" />
+            <Field field="PopOther" selected="True" />
+            <Field field="PopPacIsl" selected="True" />
+            <Field field="PopWhite" selected="True" />
+            <Field field="HVal0to100K" selected="True" />
+            <Field field="HVal100Kto200K" selected="True" />
+            <Field field="HVal200Kto300K" selected="True" />
+            <Field field="HVal300Kto400K" selected="True" />
+            <Field field="HVal400Kto500K" selected="True" />
+            <Field field="HVal500Kto750K" selected="True" />
+            <Field field="HVal750KPlus" selected="True" />
+            <Field field="PopDens" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="String" />
+            <Field name="Cluster" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\store_clusters.xlsx|`store_clusters$`" type="Double" />
+            <Field name="Right_Address" size="29" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="Right_City" size="21" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
+            <Field name="Right_State" size="2" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="String" />
+            <Field name="Right_Zip" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="Int32" />
+            <Field name="Right_Type" size="8" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="String" />
+            <Field name="Age0to9" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age10to17" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age18to24" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age25to29" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age30to39" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age40to49" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age50to64" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="Age65Plus" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdLTHS" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdHSGrad" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdSomeCol" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdAssociate" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdBachelor" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdMaster" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdProfSchl" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="EdDoctorate" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz1Per" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz2Per" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz3Per" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz4Per" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz5PlusPer" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHIncU25K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc25Kto50K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc50Kto75K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc75Kto100K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc100Kto150K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc150Kto250K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc250KPlus" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopAsian" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopBlack" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopHispanic" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopMulti" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopNativeAmer" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopOther" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopPacIsl" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopWhite" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal0to100K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal100Kto200K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal200Kto300K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal300Kto400K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal400Kto500K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal500Kto750K" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="HVal750KPlus" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+            <Field name="PopDens" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storedemographicdata.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Cluster" selected="True" type="V_String" size="19" />
+            <SelectField field="Right_City" selected="True" />
+            <SelectField field="Right_Zip" selected="False" type="V_String" size="11" />
+            <SelectField field="Right_Type" selected="True" />
+            <SelectField field="Age0to9" selected="True" />
+            <SelectField field="Age10to17" selected="True" />
+            <SelectField field="Age18to24" selected="True" />
+            <SelectField field="Age25to29" selected="True" />
+            <SelectField field="Age30to39" selected="True" />
+            <SelectField field="Age40to49" selected="True" />
+            <SelectField field="Age50to64" selected="True" />
+            <SelectField field="Age65Plus" selected="True" />
+            <SelectField field="EdLTHS" selected="True" />
+            <SelectField field="EdHSGrad" selected="True" />
+            <SelectField field="EdSomeCol" selected="True" />
+            <SelectField field="EdAssociate" selected="True" />
+            <SelectField field="EdBachelor" selected="True" />
+            <SelectField field="EdMaster" selected="True" />
+            <SelectField field="EdProfSchl" selected="True" />
+            <SelectField field="EdDoctorate" selected="True" />
+            <SelectField field="HHSz1Per" selected="True" />
+            <SelectField field="HHSz2Per" selected="True" />
+            <SelectField field="HHSz3Per" selected="True" />
+            <SelectField field="HHSz4Per" selected="True" />
+            <SelectField field="HHSz5PlusPer" selected="True" />
+            <SelectField field="HHIncU25K" selected="True" />
+            <SelectField field="HHInc25Kto50K" selected="True" />
+            <SelectField field="HHInc50Kto75K" selected="True" />
+            <SelectField field="HHInc75Kto100K" selected="True" />
+            <SelectField field="HHInc100Kto150K" selected="True" />
+            <SelectField field="HHInc150Kto250K" selected="True" />
+            <SelectField field="HHInc250KPlus" selected="True" />
+            <SelectField field="PopAsian" selected="True" />
+            <SelectField field="PopBlack" selected="True" />
+            <SelectField field="PopHispanic" selected="True" />
+            <SelectField field="PopMulti" selected="True" />
+            <SelectField field="PopNativeAmer" selected="True" />
+            <SelectField field="PopOther" selected="True" />
+            <SelectField field="PopPacIsl" selected="True" />
+            <SelectField field="PopWhite" selected="True" />
+            <SelectField field="HVal0to100K" selected="True" />
+            <SelectField field="HVal100Kto200K" selected="True" />
+            <SelectField field="HVal200Kto300K" selected="True" />
+            <SelectField field="HVal300Kto400K" selected="True" />
+            <SelectField field="HVal400Kto500K" selected="True" />
+            <SelectField field="HVal500Kto750K" selected="True" />
+            <SelectField field="HVal750KPlus" selected="True" />
+            <SelectField field="PopDens" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="546" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">False</Value>
+          <Value name="target">Store</Value>
+          <Value name="target level" />
+          <Value name="use fields">"Age0to9","Age10to17","Age18to24","Age25to29","Age30to39","Age40to49","Age50to64","Age65Plus","EdLTHS","EdHSGrad","EdSomeCol","EdAssociate","EdBachelor","EdMaster","EdProfSchl","EdDoctorate","HHSz1Per","HHSz2Per","HHSz3Per","HHSz4Per","HHSz5PlusPer","HHIncU25K","HHInc25Kto50K","HHInc50Kto75K","HHInc75Kto100K","HHInc100Kto150K","HHInc150Kto250K","HHInc250KPlus","PopAsian","PopBlack","PopHispanic","PopMulti","PopNativeAmer","PopOther","PopPacIsl","PopWhite","HVal0to100K","HVal100Kto200K","HVal200Kto300K","HVal300Kto400K","HVal400Kto500K","HVal500Kto750K","HVal750KPlus","PopDens"</Value>
+          <Value name="Pearson">True</Value>
+          <Value name="Spearman">False</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9740_65a95693867a4fd5b3bc676b637d23d8_\Engine_1456_9cba6304a84447df929d6cc20e5ef89a_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9740_65a95693867a4fd5b3bc676b637d23d8_\Engine_1456_c8c2c482445c4c4fb0ba6581edbdadfd_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="558" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings>
+        <Position x="678" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name" />
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars" />
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Age0to9</Value>
+          <Value name="cp">Auto</Value>
+          <Value name="select.type">False</Value>
+          <Value name="classification">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="usesurrogate.0">False</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">True</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">Default</Value>
+          <Value name="tree.plot">True</Value>
+          <Value name="Counts">False</Value>
+          <Value name="Proportions">True</Value>
+          <Value name="Branch Dist">True</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.in.w">5.50</Value>
+          <Value name="tree.in.h">5.50</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="tree.cm.w">13.00</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.in.w">5.50</Value>
+          <Value name="prune.in.h">5.50</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="prune.cm.w">13.00</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Decision_Tree.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Correlation Matrix" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Estimation" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>format_classification</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

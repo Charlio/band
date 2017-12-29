@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="126" />
+        <Position x="54" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>storeinformation.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storeinformation.csv" type="V_String" />
@@ -43,7 +40,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="210" />
+        <Position x="54" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -65,9 +62,6 @@
           <DefaultAnnotationText>storesalesdata.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store" size="254" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\storesalesdata.csv" type="V_String" />
@@ -90,11 +84,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="150" y="114" />
+        <Position x="150" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10964_ac1cea0171e24ec4920c3f0631b4ff54_\Engine_7668_302f15b0c94043ebbe230167b87be441_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9800_0c29020ba1574df3802b519dee51c805_\Engine_13656_c1c5b9a0ce5643f39f79fa145fc7a069_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -113,11 +107,11 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="150" y="270" />
+        <Position x="150" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10964_ac1cea0171e24ec4920c3f0631b4ff54_\Engine_7668_08532bb88b404d7895ad2f9a70cfb8ad_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9800_0c29020ba1574df3802b519dee51c805_\Engine_13656_58f486d4118c45d580d1e760268eba17_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -136,7 +130,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="150" y="210" />
+        <Position x="150" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -159,7 +153,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="246" y="186" />
+        <Position x="246" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -178,11 +172,6 @@
             <SelectField field="Deli" selected="True" type="Double" size="8" />
             <SelectField field="Bakery" selected="True" type="Double" size="8" />
             <SelectField field="General_Merchandise" selected="True" type="Double" size="8" />
-            <SelectField field="Address" selected="True" />
-            <SelectField field="City" selected="True" />
-            <SelectField field="State" selected="True" />
-            <SelectField field="Zip" selected="True" />
-            <SelectField field="Type" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -196,7 +185,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="318" y="186" />
+        <Position x="318" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -223,7 +212,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="510" y="150" />
+        <Position x="510" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -253,7 +242,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="606" y="198" />
+        <Position x="606" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -284,9 +273,6 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -305,11 +291,11 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="702" y="246" />
+        <Position x="702" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10964_ac1cea0171e24ec4920c3f0631b4ff54_\Engine_7668_bbe90c23ea2a474aa8e14f4ce53afe6e_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9800_0c29020ba1574df3802b519dee51c805_\Engine_13656_dc5e2781bf4f478a82c19657efe9fedd_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -332,7 +318,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="17">
       <GuiSettings>
-        <Position x="702" y="102" />
+        <Position x="702" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -343,9 +329,6 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -381,7 +364,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="138" y="162" />
+        <Position x="138" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -404,7 +387,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="774" y="102" />
+        <Position x="774" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -440,7 +423,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="414" y="150" />
+        <Position x="414" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -454,8 +437,23 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <SelectFields>
+                <SelectField field="Left_Store" selected="True" />
+                <SelectField field="Left_Address" selected="True" />
+                <SelectField field="Left_City" selected="True" />
+                <SelectField field="Left_State" selected="True" />
+                <SelectField field="Left_Zip" selected="True" />
+                <SelectField field="Left_Type" selected="True" />
                 <SelectField field="Right_Store" selected="False" rename="Right_Store" />
-                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Right_Sum_Dry_Grocery" selected="True" />
+                <SelectField field="Right_Sum_Dairy" selected="True" />
+                <SelectField field="Right_Sum_Frozen_Food" selected="True" />
+                <SelectField field="Right_Sum_Meat" selected="True" />
+                <SelectField field="Right_Sum_Produce" selected="True" />
+                <SelectField field="Right_Sum_Floral" selected="True" />
+                <SelectField field="Right_Sum_Deli" selected="True" />
+                <SelectField field="Right_Sum_Bakery" selected="True" />
+                <SelectField field="Right_Sum_General_Merchandise" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
           </SelectConfiguration>
@@ -470,7 +468,7 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="846" y="102" />
+        <Position x="846" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -487,9 +485,6 @@ Per_Dairy=[Sum_Dairy]/[total_sale]
 Table=store_clusters</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -574,7 +569,7 @@ Table=store_clusters</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>grocery</Name>
+      <Name>store_segments</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

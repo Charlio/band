@@ -152,7 +152,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
         <Configuration>
           <Value name="Model Name">credit_logistic</Value>
           <Value name="Y Var">Credit-Application-Result</Value>
-          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
+          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Purpose + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
           <Value name="Link">logit</Value>
           <Value name="Use Weights">False</Value>
           <Value name="Weight Vec">Duration-of-Credit-Month</Value>
@@ -174,7 +174,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
         <Configuration>
           <Value name="Model Name">credit_forest</Value>
           <Value name="Y Var">Credit-Application-Result</Value>
-          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
+          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Purpose + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
           <Value name="Num Trees">500</Value>
           <Value name="Custom Num Vars">False</Value>
           <Value name="Num Vars">3</Value>
@@ -209,7 +209,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
         <Configuration>
           <Value name="Model Name">credit_tree</Value>
           <Value name="Y Var">Credit-Application-Result</Value>
-          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
+          <Value name="X Vars">Account-Balance + Duration-of-Credit-Month + Payment-Status-of-Previous-Credit + Purpose + Credit-Amount + Value-Savings-Stocks + Length-of-current-employment + Instalment-per-cent + Most-valuable-available-asset + Type-of-apartment + No-of-Credits-at-this-Bank + Age_years</Value>
           <Value name="use.weights">False</Value>
           <Value name="select.weights">Duration-of-Credit-Month</Value>
           <Value name="cp">Auto</Value>
@@ -266,7 +266,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
         <Configuration>
           <Value name="model.name">credit_boosted</Value>
           <Value name="select.target">Credit-Application-Result</Value>
-          <Value name="select.predictors">Credit-Application-Result=False,Account-Balance=True,Duration-of-Credit-Month=True,Payment-Status-of-Previous-Credit=True,Credit-Amount=True,Value-Savings-Stocks=True,Length-of-current-employment=True,Instalment-per-cent=True,Most-valuable-available-asset=True,Type-of-apartment=True,No-of-Credits-at-this-Bank=True,Age_years=True</Value>
+          <Value name="select.predictors">Credit-Application-Result=False,Account-Balance=True,Duration-of-Credit-Month=True,Payment-Status-of-Previous-Credit=True,Purpose=True,Credit-Amount=True,Value-Savings-Stocks=True,Length-of-current-employment=True,Instalment-per-cent=True,Most-valuable-available-asset=True,Type-of-apartment=True,No-of-Credits-at-this-Bank=True,Age_years=True</Value>
           <Value name="use.weights">False</Value>
           <Value name="select.weights">Duration-of-Credit-Month</Value>
           <Value name="marginal.plots">False</Value>
@@ -338,7 +338,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_5fad72d27e6d4c06b93bb8243cb820c0_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_3a4d0f3e8cab4f45a40cf7dc68128c30_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -365,7 +365,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_95ce0005fb9045afbd396581d68b6e57_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_bee0e6fc3e0544f6add35b388c2e0046_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -409,9 +409,6 @@ Table=`Sheet1$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Credit-Application-Result" size="255" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
@@ -452,6 +449,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
             <SelectField field="Account-Balance" selected="True" />
             <SelectField field="Duration-of-Credit-Month" selected="True" />
             <SelectField field="Payment-Status-of-Previous-Credit" selected="True" />
+            <SelectField field="Purpose" selected="True" />
             <SelectField field="Credit-Amount" selected="True" />
             <SelectField field="Value-Savings-Stocks" selected="True" />
             <SelectField field="Length-of-current-employment" selected="True" />
@@ -477,7 +475,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_9d39e112d5fd4fed903d8a791fa58deb_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_104310d7f4744c67bf326eb4cdc3bb9a_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -504,7 +502,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_54b4e091dcf3485e97ac5560584cd0c7_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_55df6361d9c2448fbb4fe8fedb5ef922_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -531,7 +529,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_64d56fd16d264257a87164e732b0683b_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_b454cd8a48a748dea0bb7c78355628e7_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -558,7 +556,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_13587b90aed6415baa823b076f92dbfa_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_d24f43ada5804f2d844e7843e46b924a_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -585,7 +583,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_e90a7a2bb1e04d5b9cc42a7dc6657bf0_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_08e5da41747043e8a648ff9763785fa2_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -606,84 +604,34 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="98">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1338" y="198" />
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="966" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_9b71a50ceadb4aefa2eaa4c66fd76b72_.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
+          <File FileFormat="19" MaxRecords="">C:\Users\chali\Documents\Work\Artificialintelligence\band\project4-1-credit\forest_model.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>forest_model.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
-    <Node ToolID="99">
-      <GuiSettings>
-        <Position x="930" y="102" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="New Model">log_stepwise</Value>
-          <Value name="both">True</Value>
-          <Value name="backward">False</Value>
-          <Value name="AIC">True</Value>
-          <Value name="BIC">False</Value>
-          <Value name="graph.resolution">1x</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
-    </Node>
-    <Node ToolID="100">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1014" y="114" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4048_c08baaeaef3b4d8f9e481cd9c1498ab3_\Engine_6332_a77912c4a7dc4ab48ff0f8e963d322cc_.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="102">
+    <Node ToolID="107">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1110" y="198" />
+        <Position x="1110" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -700,13 +648,13 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
     </Node>
-    <Node ToolID="103">
+    <Node ToolID="108">
       <GuiSettings>
-        <Position x="1254" y="186" />
+        <Position x="1206" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="target.level">Creditworthy</Value>
+          <Value name="target.level" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -716,10 +664,10 @@ Table=`Sheet1$`</DefaultAnnotationText>
         <MetaInfo connection="predictions">
           <RecordInfo>
             <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="credit_logistic" size="1073741823" source="R-DATA:" type="V_WString" />
             <Field name="credit_tree" size="1073741823" source="R-DATA:" type="V_WString" />
             <Field name="credit_forest" size="1073741823" source="R-DATA:" type="V_WString" />
             <Field name="credit_boosted" size="1073741823" source="R-DATA:" type="V_WString" />
-            <Field name="log_stepwise" size="1073741823" source="R-DATA:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="error_measures">
@@ -739,29 +687,34 @@ Table=`Sheet1$`</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="Model Comparison.yxmc" />
+      <EngineSettings Macro="Model+Comparison\Model Comparison.yxmc" />
     </Node>
-    <Node ToolID="104">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="942" y="354" />
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1314" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File FileFormat="19" MaxRecords="">C:\Users\chali\Documents\Work\Artificialintelligence\band\project4-1-credit\boosted.yxdb</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <NoSpatialIndex>False</NoSpatialIndex>
-            <SaveSource>True</SaveSource>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10052_19607b4f3bb0445daf1424153c36ece2_\Engine_10676_986fc758d35d4d8a83e5ec91254b2806_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>boosted.yxdb</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -783,19 +736,11 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="49" Connection="Validation" />
-      <Destination ToolID="103" Connection="Data" />
+      <Destination ToolID="108" Connection="Data" />
     </Connection>
     <Connection>
-      <Origin ToolID="102" Connection="Output" />
-      <Destination ToolID="103" Connection="Models" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="49" Connection="Estimation" />
-      <Destination ToolID="99" Connection="Right Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="72" Connection="Output" />
-      <Destination ToolID="99" Connection="Left Input" />
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="108" Connection="Models" />
     </Connection>
     <Connection>
       <Origin ToolID="71" Connection="Output" />
@@ -809,25 +754,29 @@ Table=`Sheet1$`</DefaultAnnotationText>
       <Origin ToolID="72" Connection="Reports" />
       <Destination ToolID="85" Connection="Input" />
     </Connection>
+    <Connection name="#1">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
     <Connection>
       <Origin ToolID="73" Connection="Reports" />
       <Destination ToolID="87" Connection="Input" />
     </Connection>
-    <Connection name="#3">
+    <Connection>
       <Origin ToolID="73" Connection="Output" />
-      <Destination ToolID="102" Connection="Input" />
-    </Connection>
-    <Connection name="#2">
-      <Origin ToolID="74" Connection="Output" />
-      <Destination ToolID="102" Connection="Input" />
-    </Connection>
-    <Connection name="#4">
-      <Origin ToolID="75" Connection="Output" />
-      <Destination ToolID="102" Connection="Input" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="99" Connection="Output" />
-      <Destination ToolID="102" Connection="Input" />
+      <Destination ToolID="105" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="74" Connection="Reports" />
@@ -840,10 +789,6 @@ Table=`Sheet1$`</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="75" Connection="Report" />
       <Destination ToolID="88" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="75" Connection="Output" />
-      <Destination ToolID="104" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="76" Connection="Reports" />
@@ -862,12 +807,8 @@ Table=`Sheet1$`</DefaultAnnotationText>
       <Destination ToolID="49" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="99" Connection="Reports" />
-      <Destination ToolID="100" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="103" Connection="Report" />
-      <Destination ToolID="98" Connection="Input" />
+      <Origin ToolID="108" Connection="Report" />
+      <Destination ToolID="109" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

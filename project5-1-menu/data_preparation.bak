@@ -242,25 +242,6 @@ Table=Weekly_Data</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
-    <Node ToolID="21">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="570" y="186" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
-            <SummarizeField field="Region" action="GroupBy" rename="Region" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
         <Position x="486" y="246" />
@@ -328,9 +309,31 @@ Table=Weekly_Data</DefaultAnnotationText>
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <SelectFields>
-                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" />
-                <SelectField field="Right_Region" selected="True" rename="Right_Region" />
-                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Left_StoreID" selected="True" />
+                <SelectField field="Left_Sq_Ft" selected="True" />
+                <SelectField field="Left_AvgMonthSales" selected="True" />
+                <SelectField field="Left_Right_Name" selected="False" rename="Left_Right_Name" />
+                <SelectField field="Left_Region" selected="True" />
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" />
+                <SelectField field="Right_Sq_Ft" selected="False" rename="Right_Sq_Ft" />
+                <SelectField field="Right_AvgMonthSales" selected="False" rename="Right_AvgMonthSales" />
+                <SelectField field="Right_Phone Number" selected="False" rename="Right_Phone Number" />
+                <SelectField field="Right_Street Combined" selected="False" rename="Right_Street Combined" />
+                <SelectField field="Right_Street 1" selected="False" rename="Right_Street 1" />
+                <SelectField field="Right_Street 2" selected="False" rename="Right_Street 2" />
+                <SelectField field="Right_Street 3" selected="False" rename="Right_Street 3" />
+                <SelectField field="Right_City" selected="False" rename="Right_City" />
+                <SelectField field="Right_Postal Code" selected="False" rename="Right_Postal Code" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" />
+                <SelectField field="Right_Country" selected="False" rename="Right_Country" />
+                <SelectField field="Right_Coordinates" selected="False" rename="Right_Coordinates" />
+                <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" />
+                <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" />
+                <SelectField field="Right_Timezone" selected="False" rename="Right_Timezone" />
+                <SelectField field="Right_Current Timezone Offset" selected="False" rename="Right_Current Timezone Offset" />
+                <SelectField field="Right_Olson Timezone" selected="False" rename="Right_Olson Timezone" />
+                <SelectField field="Right_Group" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
           </SelectConfiguration>
@@ -477,6 +480,14 @@ Table=store_sales</DefaultAnnotationText>
       <Destination ToolID="17" Connection="Right" />
     </Connection>
     <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
     </Connection>
@@ -497,20 +508,8 @@ Table=store_sales</DefaultAnnotationText>
       <Destination ToolID="19" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="18" Connection="Output" />
-      <Destination ToolID="21" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="19" Connection="Output" />
       <Destination ToolID="20" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="21" Connection="Output" />
-      <Destination ToolID="23" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="24" Connection="Output" />
-      <Destination ToolID="23" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="22" Connection="Output" />

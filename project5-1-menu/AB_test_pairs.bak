@@ -128,7 +128,8 @@ Table=`combined_stores$`</DefaultAnnotationText>
                 <SelectField field="Left_Trend" selected="True" />
                 <SelectField field="Left_Seasonality" selected="True" />
                 <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" />
-                <SelectField field="Right_Sq_Ft" selected="True" />
+                <SelectField field="Right_Sq_Ft" selected="True" type="Double" size="8" />
+                <SelectField field="Right_AvgMonthSales" selected="True" type="Double" size="8" />
                 <SelectField field="Right_Region" selected="True" />
                 <SelectField field="Right_Group" selected="True" />
                 <SelectField field="Right_Right_StoreID" selected="False" rename="Right_Right_StoreID" />
@@ -223,7 +224,7 @@ Table=`combined_stores$`</DefaultAnnotationText>
         <Configuration>
           <Value name="get.treatment.id">StoreID</Value>
           <Value name="get.measure.id">StoreID</Value>
-          <Value name="get.measures">Trend=True,Seasonality=True,Sq_Ft=True</Value>
+          <Value name="get.measures">Trend=True,Seasonality=True,Sq_Ft=False,AvgMonthSales=True</Value>
           <Value name="cntl.num">2</Value>
           <Value name="unique.controls">True</Value>
           <Value name="inches">True</Value>
@@ -240,9 +241,6 @@ Table=`combined_stores$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\AB_Controls.yxmc" />
     </Node>
@@ -254,7 +252,7 @@ Table=`combined_stores$`</DefaultAnnotationText>
         <Configuration>
           <Value name="get.treatment.id">StoreID</Value>
           <Value name="get.measure.id">StoreID</Value>
-          <Value name="get.measures">Trend=True,Seasonality=True,Sq_Ft=True</Value>
+          <Value name="get.measures">Trend=True,Seasonality=True,Sq_Ft=False,AvgMonthSales=True</Value>
           <Value name="cntl.num">2</Value>
           <Value name="unique.controls">True</Value>
           <Value name="inches">True</Value>
@@ -271,9 +269,6 @@ Table=`combined_stores$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\AB_Controls.yxmc" />
     </Node>
@@ -312,11 +307,11 @@ Table=`combined_stores$`</DefaultAnnotationText>
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <SelectFields>
+                <SelectField field="Right_Right_Name" selected="False" rename="Right_Right_Name" />
+                <SelectField field="Right_Region" selected="True" />
                 <SelectField field="Left_Controls" selected="True" />
                 <SelectField field="Left_Treatments" selected="True" />
                 <SelectField field="Left_Distance" selected="True" />
-                <SelectField field="Right_Region" selected="True" />
-                <SelectField field="Right_Right_Name" selected="False" rename="Right_Right_Name" />
                 <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
@@ -363,7 +358,8 @@ Table=pairs</DefaultAnnotationText>
             <SelectField field="StoreID" selected="True" />
             <SelectField field="Trend" selected="True" />
             <SelectField field="Seasonality" selected="True" />
-            <SelectField field="Sq_Ft" selected="True" type="Double" size="8" />
+            <SelectField field="Sq_Ft" selected="True" />
+            <SelectField field="AvgMonthSales" selected="True" />
             <SelectField field="Region" selected="True" />
             <SelectField field="Group" selected="True" />
             <SelectField field="*Unknown" selected="False" />
@@ -395,9 +391,6 @@ Table=pairs</DefaultAnnotationText>
 Table=`store_sales$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="StoreID" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project5-1-menu\store_sales.xlsx|`store_sales$`" type="V_String" />
@@ -428,8 +421,8 @@ Table=`store_sales$`</DefaultAnnotationText>
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <SelectFields>
-                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" />
-                <SelectField field="Right_Region" selected="True" rename="Right_Region" />
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -452,7 +445,7 @@ Table=`store_sales$`</DefaultAnnotationText>
           <Value name="do target">False</Value>
           <Value name="target">StoreID</Value>
           <Value name="target level" />
-          <Value name="use fields">"Trend","Seasonality","Sq_Ft","Sum_Gross Margin","Sum_Sales"</Value>
+          <Value name="use fields">"Trend","Seasonality","Sq_Ft","AvgMonthSales","Week","Sum_Gross Margin","Sum_Sales"</Value>
           <Value name="Pearson">True</Value>
           <Value name="Spearman">False</Value>
           <Value name="Hoeffding">False</Value>
@@ -462,9 +455,6 @@ Table=`store_sales$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
     </Node>
@@ -474,7 +464,7 @@ Table=`store_sales$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7028_ba4a7c89b2d84469bf58297a4dc7032f_\Engine_9784_81bcc600ba3f4b95ae5b74ef0b2623e0_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10588_6af71e15d6e449fc884a50740bc2b542_\Engine_8096_876fbbcc4b1348dc8ffab2d6c71538dc_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -501,7 +491,7 @@ Table=`store_sales$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7028_ba4a7c89b2d84469bf58297a4dc7032f_\Engine_9784_dcd1b0e2157c4b9f9e28f2344a473d69_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10588_6af71e15d6e449fc884a50740bc2b542_\Engine_8096_405303a386da4e33b8ed68aad6a78621_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />

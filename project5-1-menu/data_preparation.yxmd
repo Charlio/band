@@ -311,6 +311,7 @@ Table=Weekly_Data</DefaultAnnotationText>
               <SelectFields>
                 <SelectField field="Left_StoreID" selected="True" />
                 <SelectField field="Left_Sq_Ft" selected="True" />
+                <SelectField field="Left_AvgMonthSales" selected="True" />
                 <SelectField field="Left_Right_Name" selected="False" rename="Left_Right_Name" />
                 <SelectField field="Left_Region" selected="True" />
                 <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" />

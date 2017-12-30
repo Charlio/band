@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+        <Position x="54" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -19,9 +19,6 @@
 Table=`pairs$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Controls" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project5-1-menu\test_pairs.xlsx|`pairs$`" type="V_String" />
@@ -35,7 +32,7 @@ Table=`pairs$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="198" />
+        <Position x="54" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -51,9 +48,6 @@ Table=`pairs$`</DefaultAnnotationText>
 Table=`store_sales$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="StoreID" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project5-1-menu\store_sales.xlsx|`store_sales$`" type="V_String" />
@@ -70,7 +64,7 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings>
-        <Position x="258" y="210" />
+        <Position x="258" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -82,9 +76,9 @@ Table=`store_sales$`</DefaultAnnotationText>
           <Value name="select.performance.measure">Sum_Gross Margin</Value>
           <Value name="StartDate">2016-04-29</Value>
           <Value name="EndDate">2016-07-21</Value>
-          <Value name="custom.comparison.period">False</Value>
-          <Value name="ComparisonStart">2017-12-28</Value>
-          <Value name="ComparisonEnd">2017-12-28</Value>
+          <Value name="custom.comparison.period">True</Value>
+          <Value name="ComparisonStart">2015-04-29</Value>
+          <Value name="ComparisonEnd">2015-07-21</Value>
           <Value name="test.name" />
           <Value name="additional.info" />
           <Value name="measure.alt.name" />
@@ -106,11 +100,11 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="342" y="186" />
+        <Position x="342" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_12520_cd98d735a290471eb8351aba5d5ac828_\Engine_9784_1bb89211fb4f4e3f9a9fe92673a4fa0f_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_3434fb532e534a62835508a8ef878edf_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -133,11 +127,11 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="354" y="258" />
+        <Position x="354" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_12520_cd98d735a290471eb8351aba5d5ac828_\Engine_9784_11f7180150c9426985c5398d882577ae_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_17e0e8af3aad4ad497d07c6aa70bdcb9_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -160,7 +154,7 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="330" y="30" />
+        <Position x="330" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -172,9 +166,9 @@ Table=`store_sales$`</DefaultAnnotationText>
           <Value name="select.performance.measure">Sum_Gross Margin</Value>
           <Value name="StartDate">2016-04-29</Value>
           <Value name="EndDate">2016-07-21</Value>
-          <Value name="custom.comparison.period">False</Value>
-          <Value name="ComparisonStart">2017-12-28</Value>
-          <Value name="ComparisonEnd">2017-12-28</Value>
+          <Value name="custom.comparison.period">True</Value>
+          <Value name="ComparisonStart">2015-04-29</Value>
+          <Value name="ComparisonEnd">2015-07-21</Value>
           <Value name="test.name">West</Value>
           <Value name="additional.info" />
           <Value name="measure.alt.name" />
@@ -196,7 +190,7 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings>
-        <Position x="330" y="102" />
+        <Position x="330" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -208,9 +202,9 @@ Table=`store_sales$`</DefaultAnnotationText>
           <Value name="select.performance.measure">Sum_Gross Margin</Value>
           <Value name="StartDate">2016-04-29</Value>
           <Value name="EndDate">2016-07-21</Value>
-          <Value name="custom.comparison.period">False</Value>
-          <Value name="ComparisonStart">2017-12-28</Value>
-          <Value name="ComparisonEnd">2017-12-28</Value>
+          <Value name="custom.comparison.period">True</Value>
+          <Value name="ComparisonStart">2015-04-29</Value>
+          <Value name="ComparisonEnd">2015-07-21</Value>
           <Value name="test.name">Central</Value>
           <Value name="additional.info" />
           <Value name="measure.alt.name" />
@@ -232,7 +226,7 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="174" y="30" />
+        <Position x="174" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -255,16 +249,21 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="486" y="6" />
+        <Position x="486" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_fed36d63018146a7ab309f11c878f724_.yxdb</TempFile>
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -277,16 +276,21 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="426" y="54" />
+        <Position x="426" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_d223ed9001784f8c8284949e58702e48_.yxdb</TempFile>
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -299,16 +303,21 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="522" y="102" />
+        <Position x="522" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_87e4b0d5f6d54f6c84354db65340c332_.yxdb</TempFile>
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -321,10 +330,23 @@ Table=`store_sales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="438" y="126" />
+        <Position x="438" y="174" />
       </GuiSettings>
       <Properties>
-        <Configuration />
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_8292_12aba508b0f04e0fae6df7688f3777b9_\Engine_416_f3ddd8fa500e48269801692756c0bac4_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />

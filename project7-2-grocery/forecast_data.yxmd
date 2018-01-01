@@ -3,30 +3,27 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="54" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`new_predict$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\new_predict.xlsx|`new_predict$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
           </FormatSpecificOptions>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>sales_data.xlsx
+          <DefaultAnnotationText>new_predict.xlsx
 Table=`new_predict$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Year" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`new_predict$`" type="V_String" />
-            <Field name="Month" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`new_predict$`" type="V_String" />
-            <Field name="Sum_Produce" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`new_predict$`" type="Double" />
+            <Field name="Year" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\new_predict.xlsx|`new_predict$`" type="V_String" />
+            <Field name="Month" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\new_predict.xlsx|`new_predict$`" type="V_String" />
+            <Field name="Total_Sales" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\new_predict.xlsx|`new_predict$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -34,30 +31,27 @@ Table=`new_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="174" />
+        <Position x="54" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`existing_predict$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\existing_predict.xlsx|`existing_predict$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
           </FormatSpecificOptions>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>sales_data.xlsx
+          <DefaultAnnotationText>existing_predict.xlsx
 Table=`existing_predict$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Year" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`existing_predict$`" type="V_String" />
-            <Field name="Month" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`existing_predict$`" type="V_String" />
-            <Field name="Sum_Produce" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\sales_data.xlsx|`existing_predict$`" type="Double" />
+            <Field name="Year" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\existing_predict.xlsx|`existing_predict$`" type="V_String" />
+            <Field name="Month" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\existing_predict.xlsx|`existing_predict$`" type="V_String" />
+            <Field name="Sum_Produce" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\existing_predict.xlsx|`existing_predict$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -65,7 +59,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="162" y="54" />
+        <Position x="150" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +77,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="162" y="174" />
+        <Position x="246" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -101,11 +95,11 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="486" y="258" />
+        <Position x="474" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9908_790621f4be0647dc8726e6e0ffce48af_\Engine_12244_c35ad75fa2a04d22bf382a80fe29f43d_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9972_75655c5ffcb24a1aafb5e09600774321_\Engine_12952_9a3d4378df0341dbb07734a5e67b96ed_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -124,7 +118,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="294" y="234" />
+        <Position x="342" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +137,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="402" y="198" />
+        <Position x="438" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -152,7 +146,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
             <Field field="Month" />
           </GroupFields>
           <HeaderField field="Type" />
-          <DataField field="Sum_Produce" />
+          <DataField field="Total_Sales" />
           <Methods>
             <Method method="Sum" />
           </Methods>
@@ -177,38 +171,15 @@ Table=`existing_predict$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
     </Node>
-    <Node ToolID="11">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="690" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9908_790621f4be0647dc8726e6e0ffce48af_\Engine_12244_2a4e2e8568974344b6c5bea5b9ab2ac6_.yxdb</TempFile>
-          <Layout>
-            <View1>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="498" y="198" />
+        <Position x="534" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <SelectFields>
-            <SelectField field="Year" selected="True" />
+            <SelectField field="Year" selected="True" type="Int16" size="2" />
             <SelectField field="Month" selected="True" type="Int16" size="2" />
             <SelectField field="Existing" selected="True" />
             <SelectField field="New" selected="True" />
@@ -225,7 +196,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="594" y="198" />
+        <Position x="630" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -241,6 +212,143 @@ Table=`existing_predict$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
     </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Sum_Produce" selected="True" rename="Total_Sales" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\past_sum_sales.xlsx|`past_sum_sales$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>past_sum_sales.xlsx
+Table=`past_sum_sales$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\past_sum_sales.xlsx|`past_sum_sales$`" type="V_String" />
+            <Field name="Month" size="255" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\past_sum_sales.xlsx|`past_sum_sales$`" type="V_String" />
+            <Field name="Sum_Produce" source="File: C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\past_sum_sales.xlsx|`past_sum_sales$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="Int16" size="2" />
+            <SelectField field="Month" selected="True" type="Int16" size="2" />
+            <SelectField field="Sum_Produce" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="726" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="810" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Year" order="Ascending" />
+            <Field field="Month" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Month - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="894" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\chali\Documents\Work\Artificialintelligence\band\project7-2-grocery\combined_data.xlsx|Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>combined_data.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -249,7 +357,7 @@ Table=`existing_predict$`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="4" Connection="Input" />
+      <Destination ToolID="15" Connection="Input" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="3" Connection="Output" />
@@ -275,9 +383,29 @@ Table=`existing_predict$`</DefaultAnnotationText>
       <Origin ToolID="13" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
     </Connection>
-    <Connection>
+    <Connection name="#1">
       <Origin ToolID="14" Connection="Output" />
-      <Destination ToolID="11" Connection="Input" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
